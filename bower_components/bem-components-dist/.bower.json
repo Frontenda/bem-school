@@ -1,0 +1,27 @@
+{
+  "name": "bem-components-dist",
+  "description": "Set of components for sites development built with BEM",
+  "keywords": [
+    "bem",
+    "бэм",
+    "components",
+    "css",
+    "js",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://bem.info/",
+  "main": "",
+  "version": "6.0.0",
+  "_release": "6.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v6.0.0",
+    "commit": "92f312732c884654d953ff64bef0160b6bf0e445"
+  },
+  "_source": "https://github.com/bem/bem-components-dist.git",
+  "_target": "^6.0.0",
+  "_originalSource": "bem/bem-components-dist",
+  "_direct": true
+}

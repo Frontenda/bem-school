@@ -1,0 +1,494 @@
+/* Базовые цвета от которых выстраивается вся политра */
+/* hsl(0, 0%, 0%) */
+/* hsl(0, 0%, 100%) */
+/* hsl(48, 100%, 50%) */
+/* hsl(40, 14%, 96%) */
+/* hsl(0, 100%, 47%) */
+/* hsl(120, 100%, 23%) */
+/* hsl(220, 100%, 47%) */
+/* Цвета блоков */
+/* Бренд */
+/* Акценты */
+/* Выделения */
+/* Наведения */
+/* Инверсия */
+/* Границы */
+/* Границы */
+/* Границы */
+/* Затенения */
+/* Дефолт */
+/* Дефолт iOS */
+/* Дефолт Android */
+/* Паранджа  */
+/* Успех */
+/* Ошибка */
+/* Стандартный */
+/* Цвета компонентов */
+/* Дизайбл */
+/* Цвета текста */
+/* Основной */
+/* Промо */
+/* Второстепенный */
+/* Третестепенный */
+/* Инверсия */
+/* Неактивный */
+/* Приход */
+/* Брендированный */
+/* Успех */
+/* Ошибка */
+/* Цвета ссылок */
+/* Основная */
+/* Дополнительная */
+/* Второстепенная ссылка */
+/* Ховер */
+:root {
+  /* Цвета блоков */
+  --color-brand: #FFCC00;
+  --color-action: rgb(255, 219, 77);
+  --color-selection: rgb(255, 234, 158);
+  --color-hover: rgb(255, 246, 204);
+  --color-inverse: #1a1a1a;
+  --color-border: rgba(0, 0, 0, 0.05);
+  --color-stripe: rgba(0, 0, 0, 0.02);
+  --color-border-control: rgba(0, 0, 0, 0.12);
+  --color-ghost: rgb(243, 241, 237);
+  --color-default: #FFFFFF;
+  --color-default-ios: #FFFFFF;
+  --color-default-android: rgb(250, 250, 250);
+  --color-tone: rgba(0, 0, 0, 0.7);
+  --color-success: rgb(0, 153, 97);
+  --color-alert: rgb(255, 51, 51);
+  --color-normal: rgb(220, 226, 228);
+
+  /* Цвета контролов */
+  --color-disable: rgba(0, 0, 0, 0.08);
+
+  /* Цвета текста */
+  --color-typo-primary: #000000;
+  --color-typo-promo: rgba(0, 0, 0, 0.8);
+  --color-typo-secondary: rgba(0, 0, 0, 0.6);
+  --color-typo-ghost: rgba(0, 0, 0, 0.3);
+  --color-typo-inverse: #FFFFFF;
+  --color-typo-disable: rgba(0, 0, 0, 0.3);
+  --color-typo-income: rgb(4, 164, 4);
+  --color-typo-letter: rgb(255, 0, 0);
+  --color-typo-success: rgb(0, 153, 97);
+  --color-typo-alert: rgb(255, 51, 51);
+
+  /* Цвета ссылок */
+  --color-link: #0070F0;
+  --color-link-external: #007700;
+  --color-link-minor: rgb(133, 137, 173);
+  --color-link-hover: rgb(204, 0, 0);
+}
+/* Цвета для bem-components (в процессе)
+$color-default:                 color($color-essential);
+$color-inverse:                 $color-base;
+$color-hover:                   color($color-project l(+33%));
+$color-press:                   $color-ghost;
+
+$color-action:                  color($color-project l(+15%));
+$color-action-hover:            color($color-project l(+20%));
+$color-action-focus:            $color-project;
+$color-action-press:            $color-project;
+
+$color-check:                   color($color-project l(+33%));
+$color-check-press:             color($color-project l(+25%));
+
+$color-disable:                 color($color-base a(8%));
+$color-disable-check:           color($color-base a(8%));
+$color-border-disable:          color($color-base l(+60%));
+
+$color-border:                  color($color-base a(20%));
+$color-border-hover:            color($color-base a(30%));
+$color-border-press:            color($color-base a(35%));
+$color-border-focus:            color($color-base a(35%));
+
+$color-border-check:            color($color-project a(50%) l(-20%));
+$color-border-check-press:      color($color-base a(35%));
+$color-border-check-hover:      color($color-project a(60%) l(-25%));
+$color-border-focus:            $color-project;
+
+$color-typo-primary:            $color-base;
+$color-typo-inverse:            $color-essential;
+$color-typo-placeholder:        color($color-base l(+60%));
+
+$color-link:                    $color-path;
+$color-link-hover:              $color-radical;
+$color-link-ghost:              $color-ghost;
+$color-link-ghost-hover:        color($color-ghost l(-10));
+$color-link-visited:            color($color-path s(10%));
+
+$color-typo-disable:            color($color-base l(+60%));
+$color-typo-inverse-disable:    color($color-base a(40%));
+*/
+/* Размеры текста */
+/* Межстрочный интервал */
+:root {
+  /* Размер текста */
+  --size-typo-xs: 11px;
+  --size-typo-s: 13px;
+  --size-typo-m: 15px;
+  --size-typo-l: 18px;
+  --size-typo-xl: 20px;
+  --size-typo-xxl: 24px;
+  --size-typo-xxxl: 32px;
+  --size-typo-xxxxl: 48px;
+  --size-typo-xxxxxl: 72px;
+  --size-typo-xxxxxxl: 96px;
+
+  /* Межстрочный интервал */
+  --line-height-typo-xs: 15px;
+  --line-height-typo-s: 18px;
+  --line-height-typo-m: 21px;
+  --line-height-typo-l: 25px;
+  --line-height-typo-xl: 28px;
+  --line-height-typo-xxl: 34px;
+  --line-height-typo-xxxl: 42px;
+  --line-height-typo-xxxxl: 62px;
+  --line-height-typo-xxxxxl: 82px;
+  --line-height-typo-xxxxxxl: 115px;
+}
+/* Отступы */
+:root{
+  /* Отступы */
+  --space-xxxs: 2px;
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-s: 12px;
+  --space-m: 16px;
+  --space-l: 20px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-xxxl: 40px;
+  --space-xxxxl: 48px;
+  --space-xxxxxl: 72px;
+  --space-xxxxxxl: 96px;
+}
+.pt-list_view_default {
+      background: var(--color-default);
+    }
+.pt-list_view_inverse {
+      background: var(--color-inverse);
+    }
+.pt-list_view_ghost {
+      background: var(--color-ghost);
+    }
+.pt-list_border_all {
+      border: 1px solid var(--color-border);
+    }
+.pt-list_shadow_cloud {
+      -webkit-box-shadow: 0 20px 20px rgba(0,0,0,.08);
+              box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    }
+.pt-list__item {
+    position: relative;
+  }
+.pt-list__item_space-a_xs {
+        padding: var(--space-xs);
+      }
+.pt-list__item_space-a_s {
+        padding: var(--space-s);
+      }
+.pt-list__item_space-a_m {
+        padding: var(--space-m);
+      }
+.pt-list__item_space-a_l {
+        padding: var(--space-l);
+      }
+.pt-list__item_space-a_xl {
+        padding: var(--space-xl);
+      }
+.pt-list__item_space-a_xxl {
+        padding: var(--space-xxl);
+      }
+.pt-list__item_space-v_xs {
+        padding-top: var(--space-xs);
+        padding-bottom: var(--space-xs);
+      }
+.pt-list__item_space-v_s {
+        padding-top: var(--space-s);
+        padding-bottom: var(--space-s);
+      }
+.pt-list__item_space-v_m {
+        padding-top: var(--space-m);
+        padding-bottom: var(--space-m);
+      }
+.pt-list__item_space-v_l {
+        padding-top: var(--space-l);
+        padding-bottom: var(--space-l);
+      }
+.pt-list__item_space-v_xl {
+        padding-top: var(--space-xl);
+        padding-bottom: var(--space-xl);
+      }
+.pt-list__item_space-v_xxl {
+        padding: var(--space-xxl);
+        padding-bottom: var(--space-xxl);
+      }
+.pt-list__item_space-h_xs {
+        padding-left: var(--space-xs);
+        padding-right: var(--space-xs);
+      }
+.pt-list__item_space-h_s {
+        padding-left: var(--space-s);
+        padding-right: var(--space-s);
+      }
+.pt-list__item_space-h_m {
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+      }
+.pt-list__item_space-h_l {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+      }
+.pt-list__item_space-h_xl {
+        padding-left: var(--space-xl);
+        padding-right: var(--space-xl);
+      }
+.pt-list__item_space-h_xxl {
+        padding-left: var(--space-xxl);
+        padding-right: var(--space-xxl);
+      }
+.pt-list__item_space-t_xs {
+        padding-top: var(--space-xs);
+      }
+.pt-list__item_space-t_xs:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-t_s {
+        padding-top: var(--space-s);
+      }
+.pt-list__item_space-t_s:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-t_m {
+        padding-top: var(--space-m);
+      }
+.pt-list__item_space-t_m:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-t_l {
+        padding-top: var(--space-l);
+      }
+.pt-list__item_space-t_l:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-t_xl {
+        padding-top: var(--space-xl);
+      }
+.pt-list__item_space-t_xl:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-t_xxl {
+        padding-top: var(--space-xxl);
+      }
+.pt-list__item_space-t_xxl:first-child {
+          padding-top: 0;
+        }
+.pt-list__item_space-r_xs {
+        padding-right: var(--space-xs);
+      }
+.pt-list__item_space-r_s {
+        padding-right: var(--space-s);
+      }
+.pt-list__item_space-r_m {
+        padding-right: var(--space-m);
+      }
+.pt-list__item_space-r_l {
+        padding-right: var(--space-l);
+      }
+.pt-list__item_space-r_xl {
+        padding-right: var(--space-xl);
+      }
+.pt-list__item_space-r_xxl {
+        padding-right: var(--space-xl);
+      }
+.pt-list__item_space-b_xs {
+        padding-bottom: var(--space-xs);
+      }
+.pt-list__item_space-b_xs:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-b_s {
+        padding-bottom: var(--space-s);
+      }
+.pt-list__item_space-b_s:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-b_m {
+        padding-bottom: var(--space-m);
+      }
+.pt-list__item_space-b_m:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-b_l {
+        padding-bottom: var(--space-l);
+      }
+.pt-list__item_space-b_l:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-b_xl {
+        padding-bottom: var(--space-xl);
+      }
+.pt-list__item_space-b_xl:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-b_xxl {
+        padding-bottom: var(--space-xxl);
+      }
+.pt-list__item_space-b_xxl:last-child {
+          padding-bottom: 0;
+        }
+.pt-list__item_space-l_xs {
+        padding-left: var(--space-xs);
+      }
+.pt-list__item_space-l_s {
+        padding-left: var(--space-s);
+      }
+.pt-list__item_space-l_m {
+        padding-left: var(--space-m);
+      }
+.pt-list__item_space-l_l {
+        padding-left: var(--space-l);
+      }
+.pt-list__item_space-l_xl {
+        padding-left: var(--space-xl);
+      }
+.pt-list__item_space-l_xxl {
+        padding-left: var(--space-xxl);
+      }
+.pt-list__item_border_bottom {
+        border-bottom: 1px solid var(--color-border);
+      }
+.pt-list__item_border_bottom:last-child {
+          border-bottom: none;
+        }
+.pt-list__item_border_top {
+        border-top: 1px solid var(--color-border);
+      }
+.pt-list__item_border_top:first-child {
+          border-top: none;
+        }
+.text_view_primary {
+	color: var(--color-typo-primary);
+}
+.text_size_xl {
+	font-size: 20px;
+	/*font-family: "Yandex Sans Text Web", Helvetica, Arial, sans-serif;*/
+	line-height: 28px;
+}
+.text_weight_semibold {
+	font-weight: 500;
+}
+.text_size_m {
+	font-size: 15px;
+	/*font-family: "Yandex Sans Text Web", Helvetica, Arial, sans-serif;*/
+	line-height: 21px;
+}
+.text_align_center {
+	text-align: center;
+}
+.text_view_secondary {
+	color: var(--color-typo-secondary);
+}
+.text_display_inline-block {
+	display: inline-block;
+}
+.pt-icon-plus {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+}
+.pt-icon-plus__block {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+.pt-icon-plus__icon {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+.pt-icon-plus__icon_indent-right_xxs {
+        margin-right: var(--space-xxs);
+      }
+.pt-icon-plus__icon_indent-right_xs {
+        margin-right: var(--space-xs);
+      }
+.pt-icon-plus__icon_indent-right_s {
+        margin-right: var(--space-s);
+      }
+.pt-icon-plus__icon_indent-right_m {
+        margin-right: var(--space-m);
+      }
+.pt-icon-plus__icon_indent-right_l {
+        margin-right: var(--space-l);
+      }
+.pt-icon-plus_vertical-align_center {
+			-webkit-box-align: center;
+			    -ms-flex-align: center;
+			        align-items: center;
+		}
+.pt-icon-plus_vertical-align_top {
+			-webkit-box-align: start;
+			    -ms-flex-align: start;
+			        align-items: flex-start;
+		}
+.pt-icon-plus_vertical-align_top .icon-plus__icon {
+				margin-top: var(--space-xxxs);
+			}
+.pt-icon-plus_indent_xxs {
+      margin-bottom: var(--space-xxs);
+    }
+.pt-icon-plus_indent_xs {
+      margin-bottom: var(--space-xs);
+    }
+.pt-icon-plus_indent_s {
+      margin-bottom: var(--space-s);
+    }
+.pt-icon-plus_indent_m {
+      margin-bottom: var(--space-m);
+    }
+.pt-icon-plus_indent_l {
+      margin-bottom: var(--space-l);
+    }
+.brand-logo {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+.brand-logo_size_s {
+		width: 40px;
+		height: 40px;
+	}
+.brand-logo_size_m {
+		width: 60px;
+		height: 60px;
+	}
+.brand-logo_size_l {
+		width: 80px;
+		height: 80px;
+	}
+.brand-logo_size_xl {
+		width: 120px;
+		height: 120px;
+	}
+.text_size_l {
+	font-size: 18px;
+	/*font-family: "Yandex Sans Text Web", Helvetica, Arial, sans-serif;*/
+	line-height: 25px;
+}
+.text_view_income  {
+	color: var(--color-typo-income);
+}
+.brand-logo_name_beeline {
+	background-image: url("../../node_modules/bem-logos/common.blocks/brand-logo/_name/brand-logo_name_beeline.svg")
+}
+.brand-logo_name_itunes {
+	background-image: url("../../node_modules/bem-logos/common.blocks/brand-logo/_name/brand-logo_name_itunes.svg")
+}

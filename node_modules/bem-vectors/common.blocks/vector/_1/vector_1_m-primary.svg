@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <polygon id="a" points="0 46.5 42 46.5 42 0 0 0"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(19 14)">
+    <path stroke="#FFCD05" stroke-width="3" d="M40.5,44.5 L11.5,44.5 L11.5,39 C11.5,31 18,24.5 26,24.5 C34,24.5 40.5,31 40.5,39 L40.5,44.5 Z"/>
+    <path fill="#FFFFFF" d="M26.5,0 C34.508,0 41,6.492 41,14.5 C41,22.508 34.508,29 26.5,29 C18.492,29 12,22.508 12,14.5 C12,6.492 18.492,0 26.5,0"/>
+    <path stroke="#FFCD05" stroke-width="3" d="M27.5,5 C32.747,5 37,9.253 37,14.5 C37,19.747 32.747,24 27.5,24 C22.253,24 18,19.747 18,14.5 C18,9.253 22.253,5 27.5,5 Z"/>
+    <mask id="b" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <polygon fill="#FFFFFF" points="20.5 46.5 35.5 46.5 35.5 40.5 20.5 40.5" mask="url(#b)"/>
+    <path fill="#FFFFFF" d="M30.5,44.5 L1.5,44.5 L1.5,39 C1.5,31 8,24.5 16,24.5 C24,24.5 30.5,31 30.5,39 L30.5,44.5 Z" mask="url(#b)"/>
+    <path stroke="#121212" stroke-width="3" d="M30.5,44.5 L1.5,44.5 L1.5,39 C1.5,31 8,24.5 16,24.5 C24,24.5 30.5,31 30.5,39 L30.5,44.5 Z" mask="url(#b)"/>
+    <path fill="#FFFFFF" d="M16.5,0 C24.508,0 31,6.492 31,14.5 C31,22.508 24.508,29 16.5,29 C8.492,29 2,22.508 2,14.5 C2,6.492 8.492,0 16.5,0" mask="url(#b)"/>
+    <path stroke="#121212" stroke-width="3" d="M16.5,5 C21.747,5 26,9.253 26,14.5 C26,19.747 21.747,24 16.5,24 C11.253,24 7,19.747 7,14.5 C7,9.253 11.253,5 16.5,5 Z" mask="url(#b)"/>
+  </g>
+</svg>
