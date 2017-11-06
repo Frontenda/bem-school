@@ -2161,7 +2161,7 @@ var api = new BEMHTML({"elemJsInstances":true});
 api.compile(function(
 match, block, elem, mod, elemMod, oninit, xjstOptions, wrap, replace, extend, mode, def, content, appendContent, prependContent, attrs, addAttrs, js, addJs, mix, addMix, mods, addMods, addElemMods, elemMods, tag, cls, bem, local, applyCtx, applyNext, apply
 ) {
-/* begin: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/page.bemhtml.js */
+/* begin: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/page.bemhtml.js */
 block('page')(
 
     mode('doctype')(function() {
@@ -2237,8 +2237,8 @@ block('page')(
 
 );
 
-/* end: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/page.bemhtml.js */
-/* begin: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/ua/ua.bemhtml.js */
+/* end: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/page.bemhtml.js */
+/* begin: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/ua/ua.bemhtml.js */
 block('ua')(
     tag()('script'),
     bem()(false),
@@ -2249,8 +2249,8 @@ block('ua')(
     ])
 );
 
-/* end: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/ua/ua.bemhtml.js */
-/* begin: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/__css/page__css.bemhtml.js */
+/* end: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/ua/ua.bemhtml.js */
+/* begin: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/__css/page__css.bemhtml.js */
 block('page').elem('css')(
     bem()(false),
     tag()('style'),
@@ -2262,8 +2262,8 @@ block('page').elem('css')(
     )
 );
 
-/* end: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/__css/page__css.bemhtml.js */
-/* begin: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/__js/page__js.bemhtml.js */
+/* end: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/__css/page__css.bemhtml.js */
+/* begin: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/__js/page__js.bemhtml.js */
 block('page').elem('js')(
     bem()(false),
     tag()('script'),
@@ -2279,7 +2279,7 @@ block('page').elem('js')(
     })
 );
 
-/* end: /Users/muzafarova/Bitbucket/ecosystem/node_modules/bem-core/common.blocks/page/__js/page__js.bemhtml.js */
+/* end: /Users/muzafarova/Bitbucket/bem-school/node_modules/bem-core/common.blocks/page/__js/page__js.bemhtml.js */
 oninit(function(exports, context) {
     var BEMContext = exports.BEMContext || context.BEMContext;
     // Provides third-party libraries from different modular systems
