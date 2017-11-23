@@ -130,6 +130,26 @@ module.exports = {
 };
 ```
 
+### Docker
+
+It is possible to use Docker for project build:
+
+```bash
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm install
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm build
+```
+
+And for dev server:
+```bash
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm start
+```
+
+or docker-compose for dev-server:
+
+```bash
+docker-compose up
+```
+
 ## Docs
 
 - [Static page quick-start](https://en.bem.info/platform/tutorials/quick-start-static/)
