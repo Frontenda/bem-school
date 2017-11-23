@@ -139,6 +139,29 @@ module.exports = {
     ]
 };
 ```
+
+### Docker
+
+Также, устанавливать и собирать проект можно с помощью Docker:
+
+```bash
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm install
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm build
+```
+
+А также, запускать сервер для разработки.
+Через docker run:
+
+```bash
+docker run -it --rm -v "$PWD":"$PWD" -w "$PWD" -p 8080:8080 node npm start
+```
+
+или docker-compose:
+
+```bash
+docker-compose up
+```
+
 ## Полезные ссылки
 
 * [Собираем статическую страницу на БЭМ](https://ru.bem.info/platform/tutorials/quick-start-static/)
